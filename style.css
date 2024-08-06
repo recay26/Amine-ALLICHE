@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body,html{
+    overflow-x: hidden;
+}
+header{
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    margin: auto;
+}
+.parts{
+    display: flex;
+    gap: 20px;
+}
+.parts a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    z-index: 3;
+}
+.parts a:hover{
+    color: #00ffff;
+}
+.creation{
+    display: flex;
+    color: #fff;
+    gap: 10px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: black;
+    margin-top: -60px;
+    overflow: hidden;
+}
+.div11{
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    z-index: 2;
+}
+.rect8{
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+}
+.disc{
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+.span1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.span2{
+    font-size: 3em;
+    color: #00ffff;
+    font-weight: bold;
+}
+.div111{
+    position: absolute;
+    right: 0%;
+    transform: translateX(0%);
+}
+.div14{
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    transform: translate(-6%,-10%);
+}
+.div14 span{
+    color: #a7a7a7;
+    font-size: 24px;
+}
+.div15{
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+.skills-container{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+.ellipse{
+    position: absolute;
+    width: 300px;
+    bottom: 0%;
+}
+.skills{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    gap: 25px;
+}
+.skills1  {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    gap: 25px;
+}
+.skills-plan{
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ccontainer {
+    min-height: 80vh;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: url(img/Rectangle\ 7.png) no-repeat center center/cover;
+    padding-bottom: 50px;
+}
+.ccontainer form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border: 1px dashed #00ffff;
+}
+.ccontainer h1 {
+    color: #00ffff;
+    font-weight: 600;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ccontainer form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background: none;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.ccontainer form input::placeholder {
+    color: #ffffff;
+}
+.ccontainer form #lastName,
+.ccontainer form #number {
+    margin-left: 20px;
+}
+.ccontainer form h4 {
+    color: #ffffff;
+    font-weight: 300;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center; 
+}
+.ccontainer form textarea {
+    background: none;
+    border: none;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 200;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+.ccontainer form #btt {
+    border: none;
+    background: black;
+    border: 2px solid #00ffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+.ccontainer form #btt:hover {
+    background-color: #00ffff;
+    color: black;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+footer p a{
+    color: #00ffff;
+    font-weight: 400;
+}
+footer a:hover{
+    font-size: 1.2em;
+}
