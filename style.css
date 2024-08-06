@@ -103,38 +103,43 @@ header{
 
 
 .skills-container{
-    height: 50vh;
-    background-color: black;
+    height: 60vh;
     color: white;
+    background-color: black;
     display: grid;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 .ellipse{
     position: absolute;
-    width: 300px;
-    bottom: 0%;
+    transform: translateY(15%);
+}
+.ellipse img{
+    width: 400px;
 }
 .skills{
     display: flex;
     font-size: 20px;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
 }
 .skills1  {
     display: flex;
     font-size: 20px;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
 }
 .skills-plan{
     border: 1px solid #E0E0E0;
-    padding: 20px;
-    border-radius: 35px;
+    padding: 10px 20px;
+    border-radius: 40px;
 }
 
 
-
+#carouselExampleFade{
+    background-color: #00ffff;
+}
 
 
 
