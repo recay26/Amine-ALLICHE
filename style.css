@@ -325,7 +325,7 @@ footer a:hover{
         display: none;
     }
     .div1{
-        height: 110vh;
+        height: 70vh;
         margin-top: 0;
     }
     .div11{
@@ -447,20 +447,20 @@ footer a:hover{
         width: 40%;
     }
     .div111 img{
-        width: 320px;
+        width: 290px;
+    }
+    .rect8{
+        width: 80%;
     }
     .disc{
         font-size: 0.9em;
-        margin-top: 5px;
+        margin-top: -5px;
     }
     .span1{
         font-size: 1.2em;
-        font-weight: bold;
     }
     .span2{
         font-size: 1.6em;
-        color: #00ffff;
-        font-weight: bold;
     }
     .div14{
         left: 7%;
@@ -491,7 +491,7 @@ footer a:hover{
         transform: translateY(20%);
     }
     .ellipse img{
-        width: 400px;
+        width: 300px;
     }
     .ccontainer form {
         width: 670px;
