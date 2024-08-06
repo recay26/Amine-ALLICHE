@@ -6,6 +6,7 @@
 }
 body,html{
     overflow-x: hidden;
+    background-color: black;
 }
 header{
     background-color: transparent;
@@ -14,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 40px;
+    padding: 30px 66px;
     margin: auto;
 }
 .parts{
@@ -29,12 +30,23 @@ header{
 }
 .parts a:hover{
     color: #00ffff;
+    font-size: 1.1em;
+    text-decoration: underline;
 }
 .creation{
     display: flex;
     color: #fff;
     gap: 10px;
     z-index: 2;
+    align-items: center;
+}
+.creation p{
+    padding-top: 15px;
+}
+.creation p:hover{
+    color: #00ffff;
+    font-size: 1.1em;
+    text-decoration: underline;
 }
 
 
@@ -89,6 +101,7 @@ header{
     bottom: 10%;
     left: 6%;
     transform: translate(-6%,-10%);
+    z-index: 7;
 }
 .div14 span{
     color: #a7a7a7;
@@ -98,6 +111,13 @@ header{
     display: flex;
     gap: 15px;
     padding-top: 10px;
+}
+.div15 img:hover{
+    transform: scale(1.1);
+}
+.skills-bar{
+    background-color: black;
+    width: 100%;
 }
 
 
@@ -116,7 +136,7 @@ header{
     transform: translateY(15%);
 }
 .ellipse img{
-    width: 400px;
+    width: 300px;
 }
 .skills{
     display: flex;
@@ -131,9 +151,16 @@ header{
     gap: 50px;
 }
 .skills-plan{
-    border: 1px solid #E0E0E0;
+    border: 1px solid #bebdbd;
     padding: 10px 20px;
     border-radius: 40px;
+    z-index: 5;
+}
+.skills-plan:hover{
+    transform: scale(1.1);
+    cursor:auto;
+    background-color: #00ffff;
+    font-weight: bold;
 }
 
 
@@ -160,6 +187,7 @@ header{
     align-items: center;
     background: url(img/Rectangle\ 7.png) no-repeat center center/cover;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 .ccontainer form {
     width: 670px;
@@ -180,7 +208,7 @@ header{
     font-size: 1.3em;
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .ccontainer form input {
     width: 290px;
@@ -239,13 +267,28 @@ header{
 
 
 
+
+
+
 footer{
     background-color: black;
     color: #fff;
-    text-align: center;
+    align-items: center;
     padding: 10px;
     position: relative;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 90%;
+    bottom: 40%;
+}
+footer img:hover{
+    transform: scale(1.1);
 }
 footer p a{
     color: #00ffff;
@@ -253,4 +296,182 @@ footer p a{
 }
 footer a:hover{
     font-size: 1.2em;
+}
+
+.linkedin{
+    background-color: #00ffff;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: -5px;
+}
+
+
+@media (max-width : 800px) {
+    header{
+        justify-content: center;
+        padding: 30px 6px;
+    }
+    .parts{
+        gap: 15px;
+    }
+    .creation{
+        display: none;
+    }
+    .div1{
+        height: 89vh;
+    }
+    .div11 img{
+        width: 60%;
+    }
+    .rect8,
+    .div111 img{
+        width: 0px;
+    }
+    .disc{
+        font-size: 0.9em;
+        margin-top: 20px;
+    }
+    .span1{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .span2{
+        font-size: 2em;
+        color: #00ffff;
+        font-weight: bold;
+    }
+    .div14{
+        bottom: 15%;
+        left: 15%;
+        transform: translate(-15%,-15%);
+    }
+    .div15 img{
+        width: 70%;
+    }
+    .div15{
+        gap: 5px;
+    }
+    .skills-bar{
+        width: 100%;
+    }
+    .skills-container{
+        padding: 30px;
+    }
+    .carousel-item img{
+        width: 92%;
+    }
+    
+    .skills-container{
+        height: 100%;
+    }
+    .skills{
+        display: grid;
+        height: 100%;
+        font-size: 12px;
+        gap: 15px;
+        padding-bottom: 15px;
+    }
+    .skills1{
+        display: grid;
+        font-size: 12px;
+        gap: 15px;
+    }
+    .ellipse{
+        transform: translateY(40%);
+    }
+    .ellipse img{
+        width: 220px;
+    }
+    .carousel-control-prev-icon{
+        width: 30%;
+        height: 9%;
+        left: 1%;
+        position: absolute;
+    }
+    .carousel-control-next-icon{
+        width: 30%;
+        height: 9%;
+        right: 1%;
+        position: absolute;
+    }
+    .linkedin img{
+        width: 30%;
+    }
+    .ccontainer form {
+        width: 300px;
+        height: 450px;
+    }
+    .ccontainer h1 {
+        font-size: 1em;
+    }
+    .ccontainer form #lastName,
+    .ccontainer form #number {
+        margin-left: 0px;
+    }
+    .ccontainer form #btt {
+        margin-top: 10px;
+        width: 200px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
+@media (min-width : 1600px){
+    .parts{
+        gap: 30px;
+    }
+    .parts a{
+        font-size: 25px;
+    }
+    .parts a:hover{
+        font-size: 1.7em;
+    }
+    .creation{
+        font-size: 25px;
+    }
+    .creation p:hover{
+        font-size: 1.1em;
+    }
+    .div111 img{
+        width: 900px;
+    }
+    .rect8{
+        position: absolute;
+        z-index: 1;
+        width: 60%;
+    }
+    .disc{
+        font-size: 1.5em;
+    }
+    .span1{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .span2{
+        font-size: 3.5em;
+    }
+    .div15 img{
+        width: 120%;
+    }
+    .div15{
+        gap: 25px;
+    }
+    .skills-bar{
+        width: 120%;
+    }
+    .skills{
+        font-size: 25px;
+        gap: 70px;
+    }
+    .skills1{
+        font-size: 25px;
+        gap: 70px;
+    }
+    .ellipse{
+        transform: translateY(20%);
+    }
+    .ellipse img{
+        width: 600px;
+    }
 }
