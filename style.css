@@ -17,6 +17,7 @@ header{
     align-items: center;
     padding: 30px 66px;
     margin: auto;
+    z-index: 15;
 }
 .parts{
     display: flex;
@@ -161,6 +162,7 @@ header{
     cursor:auto;
     background-color: #00ffff;
     font-weight: bold;
+    color: black;
 }
 
 
@@ -307,10 +309,12 @@ footer a:hover{
 }
 
 
-@media (max-width : 800px) {
+@media (max-width : 767px) {
     header{
         justify-content: center;
         padding: 30px 6px;
+        border-bottom: 4px solid #00ffff;
+        border-radius: 50px;
     }
     .parts{
         gap: 15px;
@@ -319,7 +323,11 @@ footer a:hover{
         display: none;
     }
     .div1{
-        height: 89vh;
+        height: 80vh;
+        margin-top: 0;
+    }
+    .div11{
+        top: 10%;
     }
     .div11 img{
         width: 60%;
@@ -329,22 +337,22 @@ footer a:hover{
         width: 0px;
     }
     .disc{
-        font-size: 0.9em;
+        font-size: 1.2em;
         margin-top: 20px;
     }
     .span1{
-        font-size: 1.5em;
+        font-size: 1.8em;
         font-weight: bold;
     }
     .span2{
-        font-size: 2em;
+        font-size: 2.3em;
         color: #00ffff;
         font-weight: bold;
     }
     .div14{
-        bottom: 15%;
+        bottom: 5%;
         left: 15%;
-        transform: translate(-15%,-15%);
+        transform: translate(-15%,-5%);
     }
     .div15 img{
         width: 70%;
@@ -359,7 +367,7 @@ footer a:hover{
         padding: 30px;
     }
     .carousel-item img{
-        width: 92%;
+        width: 85%;
     }
     
     .skills-container{
@@ -368,13 +376,13 @@ footer a:hover{
     .skills{
         display: grid;
         height: 100%;
-        font-size: 12px;
+        font-size: 16px;
         gap: 15px;
         padding-bottom: 15px;
     }
     .skills1{
         display: grid;
-        font-size: 12px;
+        font-size: 16px;
         gap: 15px;
     }
     .ellipse{
@@ -384,14 +392,14 @@ footer a:hover{
         width: 220px;
     }
     .carousel-control-prev-icon{
-        width: 30%;
-        height: 9%;
+        width: 50%;
+        height: 15%;
         left: 1%;
         position: absolute;
     }
     .carousel-control-next-icon{
-        width: 30%;
-        height: 9%;
+        width: 50%;
+        height: 15%;
         right: 1%;
         position: absolute;
     }
@@ -415,6 +423,65 @@ footer a:hover{
     }
     footer{
         font-size: 10px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1023px){
+    header{
+        padding: 30px 26px;
+    }
+    .parts a{
+        font-size: 13px;
+    }
+    .creation p{
+        font-size: 13px;
+    }
+    .div1{
+        height: 80vh;
+    }
+    .div11{
+        top: 20%;
+    }
+    .div11 img{
+        width: 60%;
+    }
+    .div111 img{
+        width: 400px;
+    }
+    .disc{
+        font-size: 0.9em;
+        margin-top: 20px;
+    }
+    .span1{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .span2{
+        font-size: 1.9em;
+        color: #00ffff;
+        font-weight: bold;
+    }
+    .div15 img{
+        width: 70%;
+    }
+    .div15{
+        gap: 5px;
+    }
+    .skills-bar{
+        width: 120%;
+    }
+    .skills{
+        font-size: 15px;
+        gap: 30px;
+    }
+    .skills1{
+        font-size: 15px;
+        gap: 30px;
+    }
+    .ellipse{
+        transform: translateY(20%);
+    }
+    .ellipse img{
+        width: 400px;
     }
 }
 @media (min-width : 1600px){
