@@ -442,23 +442,27 @@ footer a:hover{
         top: 20%;
     }
     .div11 img{
-        width: 60%;
+        width: 40%;
     }
     .div111 img{
         width: 400px;
     }
     .disc{
-        font-size: 0.9em;
-        margin-top: 20px;
+        font-size: 0.6em;
+        margin-top: 10px;
     }
     .span1{
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     .span2{
-        font-size: 1.9em;
+        font-size: 1.6em;
         color: #00ffff;
         font-weight: bold;
+    }
+    .div14{
+        bottom: 1%;
+        transform: translate(-15%,-1%);
     }
     .div15 img{
         width: 70%;
