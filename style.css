@@ -71,7 +71,7 @@ header{
     color: white;
     position: absolute;
     left: 5%;
-    top: 20%;
+    top: 15%;
     z-index: 2;
 }
 .rect8{
@@ -143,12 +143,14 @@ header{
     display: flex;
     font-size: 20px;
     justify-content: center;
+    text-align: center;
     gap: 50px;
 }
 .skills1  {
     display: flex;
     font-size: 20px;
     justify-content: center;
+    text-align: center;
     gap: 50px;
 }
 .skills-plan{
@@ -361,7 +363,7 @@ footer a:hover{
         gap: 5px;
     }
     .skills-bar{
-        width: 100%;
+        width: 120%;
     }
     .skills-container{
         padding: 30px;
@@ -382,7 +384,7 @@ footer a:hover{
     }
     .skills1{
         display: grid;
-        font-size: 16px;
+        font-size: 18px;
         gap: 15px;
     }
     .ellipse{
@@ -445,7 +447,7 @@ footer a:hover{
         width: 40%;
     }
     .div111 img{
-        width: 400px;
+        width: 200px;
     }
     .disc{
         font-size: 0.6em;
@@ -464,11 +466,18 @@ footer a:hover{
         bottom: 1%;
         transform: translate(-15%,-1%);
     }
+    .div14 span{
+        color: #a7a7a7;
+        font-size: 16px;
+    }
     .div15 img{
         width: 70%;
     }
     .div15{
-        gap: 5px;
+        gap: px;
+    }
+    .div15 img{
+        width: 50%;
     }
     .skills-bar{
         width: 120%;
