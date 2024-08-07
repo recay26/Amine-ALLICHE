@@ -32,8 +32,6 @@ header{
 }
 .parts a:hover{
     color: #00ffff;
-    font-size: 1.1em;
-    text-decoration: underline;
 }
 .creation{
     display: flex;
@@ -47,8 +45,6 @@ header{
 }
 .creation p:hover{
     color: #00ffff;
-    font-size: 1.1em;
-    text-decoration: underline;
 }
 
 
@@ -464,9 +460,9 @@ footer a:hover{
         font-size: 1.6em;
     }
     .div14{
-        left: 7%;
+        left: 6%;
         bottom: 1%;
-        transform: translate(-7%,-1%);
+        transform: translate(-6%,-1%);
     }
     .div14 span{
         font-size: 16px;
