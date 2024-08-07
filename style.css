@@ -7,6 +7,7 @@
 body,html{
     overflow-x: hidden;
     background-color: black;
+    scroll-behavior: smooth;
 }
 header{
     background-color: transparent;
@@ -59,7 +60,7 @@ header{
 
 .div1{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -99,12 +100,12 @@ header{
 }
 .div14{
     position: absolute;
-    bottom: 10%;
+    bottom: 14%;
     left: 6%;
-    transform: translate(-6%,-10%);
+    transform: translate(-6%,-14%);
     z-index: 7;
 }
-.div14 span{
+.div144{
     color: #a7a7a7;
     font-size: 24px;
 }
