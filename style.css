@@ -96,7 +96,7 @@ header{
 }
 .div14{
     position: absolute;
-    bottom: 14%;
+    bottom: 13%;
     left: 6%;
     transform: translate(-6%,-14%);
     z-index: 7;
@@ -165,14 +165,77 @@ header{
 }
 
 
-#carouselExampleFade{
+
+
+
+.r-cont{
+    width: 100%;
+    height: 85vh;
     background-color: #00ffff;
+    text-align: center;
+    margin: auto;
+}
+.r-i-cont{
+    padding-top: 40px;
+}
+.swiper-slide {
+    width: 70%;
+    height: 100%;
 }
 
+.swiper-button-next{
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 40px;
+    border-radius: 50px;
+}
+.swiper-button-prev{
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 40px;
+    border-radius: 50px;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    color: rgb(0, 0, 0);
+    background-color: hsla(0, 0%, 100%, 0.7);
+}
 
+.autoplay-progress {
+    position: absolute;
+    right: 100px;
+    bottom: 6px;
+    z-index: 10;
+    width: 78px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+    color: black;
+}
 
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
 
-
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, #000);
+}
 
 
 
@@ -303,8 +366,7 @@ footer a:hover{
     background-color: #00ffff;
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
-    margin-top: -5px;
+    padding-top: 10px;
 }
 
 
@@ -368,7 +430,6 @@ footer a:hover{
     .carousel-item img{
         width: 85%;
     }
-    
     .skills-container{
         height: 100%;
     }
@@ -390,17 +451,31 @@ footer a:hover{
     .ellipse img{
         width: 220px;
     }
-    .carousel-control-prev-icon{
-        width: 50%;
-        height: 15%;
-        left: 1%;
-        position: absolute;
+    .r-cont{
+        height: 45vh;
     }
-    .carousel-control-next-icon{
-        width: 50%;
-        height: 15%;
-        right: 1%;
+    .swiper-button-next{
+        padding: 10px;
+    }
+    .swiper-button-prev{
+        padding: 10px;
+    }
+    .swiper-slide img{
+        width: 70%;
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-70%);
+    }
+    .autoplay-progress {
+        right: 16px;
+        bottom: 20px;
+        width: 38px;
+        height: 38px;
+    }
+    .swiper-button-next:after, 
+    .swiper-button-prev:after {
+        font-size: 12px;
     }
     .linkedin img{
         width: 30%;
@@ -489,6 +564,32 @@ footer a:hover{
     }
     .ellipse img{
         width: 300px;
+    }
+    .r-cont{
+        height: 65vh;
+    }
+    .swiper-button-next{
+        padding: 20px;
+    }
+    .swiper-button-prev{
+        padding: 20px;
+    }
+    .swiper-slide img{
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-65%);
+    }
+    .autoplay-progress {
+        right: 86px;
+        bottom: 40px;
+        width: 38px;
+        height: 38px;
+    }
+    .swiper-button-next:after, 
+    .swiper-button-prev:after {
+        font-size: 12px;
     }
     .ccontainer form {
         width: 670px;
