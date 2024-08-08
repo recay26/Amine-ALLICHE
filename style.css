@@ -461,10 +461,10 @@ footer a:hover{
     }
     .div14{
         left: 6%;
-        bottom: 1%;
-        transform: translate(-6%,-1%);
+        bottom: 0%;
+        transform: translate(-6%,0%);
     }
-    .div14 span{
+    .div144{
         font-size: 16px;
     }
     .div15{
