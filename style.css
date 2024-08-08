@@ -178,21 +178,23 @@ header{
 .r-i-cont{
     padding-top: 40px;
 }
-.swiper-slide {
+.swiper-slide img {
     width: 70%;
-    height: 100%;
 }
-
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+    font-size: 22px;
+}
 .swiper-button-next{
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    padding: 40px;
+    padding: 20px;
     border-radius: 50px;
 }
 .swiper-button-prev{
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    padding: 40px;
+    padding: 20px;
     border-radius: 50px;
 }
 .swiper-button-next:hover,
@@ -204,10 +206,10 @@ header{
 .autoplay-progress {
     position: absolute;
     right: 100px;
-    bottom: 6px;
+    bottom: 20px;
     z-index: 10;
-    width: 78px;
-    height: 78px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -461,7 +463,7 @@ footer a:hover{
         padding: 10px;
     }
     .swiper-slide img{
-        width: 70%;
+        width: 80%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -566,7 +568,7 @@ footer a:hover{
         width: 300px;
     }
     .r-cont{
-        height: 65vh;
+        height: 130vh;
     }
     .swiper-button-next{
         padding: 20px;
@@ -661,5 +663,11 @@ footer a:hover{
     }
     .ellipse img{
         width: 600px;
+    }
+    .autoplay-progress {
+        right: 100px;
+        bottom: 50px;
+        width: 100px;
+        height: 100px;
     }
 }
