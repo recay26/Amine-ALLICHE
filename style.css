@@ -29,6 +29,10 @@ header{
     color: white;
     text-transform: uppercase;
     z-index: 3;
+    transform: translateY(-50%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.2s 0.3s linear 1 forwards;
 }
 .parts a:hover{
     color: #00ffff;
@@ -39,6 +43,11 @@ header{
     gap: 10px;
     z-index: 2;
     align-items: center;
+    transform: translateY(-50%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.4s 0.5s linear 1 forwards;
+    animation-delay: 1s;
 }
 .creation p{
     padding-top: 15px;
@@ -71,6 +80,13 @@ header{
     top: 15%;
     z-index: 2;
 }
+.div11 img {
+    transform: translateX(90%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.4s 0.5s linear 1 forwards;
+    animation-delay: 1s;
+}
 .rect8{
     position: absolute;
     z-index: 1;
@@ -79,26 +95,43 @@ header{
 .disc{
     font-size: 1.4em;
     margin-top: 20px;
+    transform: translateX(-30%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.4s 0.5s linear 1 forwards;
+    animation-delay: 1.5s;
 }
 .span1{
     font-size: 2.5em;
     font-weight: bold;
+    transform: translateX(-30%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.4s 0.5s linear 1 forwards;
 }
 .span2{
     font-size: 3em;
     color: #00ffff;
     font-weight: bold;
+    transform: translateX(-30%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.4s 0.5s linear 1 forwards;
 }
 .div111{
     position: absolute;
     right: 0%;
     transform: translateX(0%);
+    transform: translateX(30%);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.4s 0.5s linear 1 forwards;
 }
 .div14{
     position: absolute;
-    bottom: 13%;
+    bottom: 12%;
     left: 6%;
-    transform: translate(-6%,-14%);
+    transform: translate(-6%,-12%);
     z-index: 7;
 }
 .div144{
@@ -371,6 +404,14 @@ footer a:hover{
     padding-top: 10px;
 }
 
+
+@keyframes showcontent {
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        filter: blur(0);
+    }
+}
 
 @media (max-width : 767px) {
     header{
