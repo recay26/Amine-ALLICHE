@@ -674,6 +674,14 @@ footer p a{
     .span2{
         font-size: 3.5em;
     }
+    .div144{
+        font-size: 34px;
+    }
+    .div14{
+        bottom: 8%;
+        transform: translate(-6%,-10%);
+        z-index: 7
+    }
     .div15 img{
         width: 120%;
     }
