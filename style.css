@@ -393,9 +393,6 @@ footer p a{
     color: #00ffff;
     font-weight: 400;
 }
-footer a:hover{
-    font-size: 1.2em;
-}
 
 .linkedin{
     background-color: #00ffff;
@@ -656,14 +653,8 @@ footer a:hover{
     .parts a{
         font-size: 25px;
     }
-    .parts a:hover{
-        font-size: 1.7em;
-    }
     .creation{
         font-size: 25px;
-    }
-    .creation p:hover{
-        font-size: 1.1em;
     }
     .div111 img{
         width: 900px;
@@ -671,7 +662,7 @@ footer a:hover{
     .rect8{
         position: absolute;
         z-index: 1;
-        width: 60%;
+        width: 65%;
     }
     .disc{
         font-size: 1.5em;

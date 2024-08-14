@@ -5,7 +5,7 @@ const progressCircle = document.querySelector(".autoplay-progress svg");
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 3000,
+                delay: 5000,
                 disableOnInteraction: false
             },
             pagination: {
