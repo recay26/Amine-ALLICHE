@@ -5,7 +5,7 @@ if (isset($_POST['send'])) {
     $userPhone = $_POST['userPhone'];
     $userMessage = $_POST['userMessage'];
 
-    $to = "your-email@example.com"; // Remplacez par votre adresse email
+    $to = "yacerchinwi@gmail.com";
     $subject = "Message from " . $userName;
     $body = "Name: " . $userName . "\n";
     $body .= "Email: " . $userEmail . "\n";
