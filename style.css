@@ -400,6 +400,9 @@ footer p a{
     text-align: center;
     padding-top: 10px;
 }
+.success{
+    color: #00ffff;
+}
 
 
 @keyframes showcontent {
@@ -431,7 +434,7 @@ footer p a{
         top: 10%;
     }
     .div11 img{
-        width: 60%;
+        width: 70%;
     }
     .rect8,
     .div111 img{
